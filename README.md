@@ -1,5 +1,5 @@
 # 💫 About Me:
-Yash Vasudeva is a B.Tech IT student focused on data science and machine learning.<br>He builds practical, real-world projects with an emphasis on data quality, meaningful metrics, and clean implementation.<br>Currently learning and experimenting with end-to-end ML workflows and deployment.
+Hi! I'm a B.Tech student focused on data science and machine learning.<br>I build practical, real-world projects with an emphasis on data quality, meaningful metrics, and clean implementation.<br>Currently learning and experimenting with end-to-end ML & DL workflows and deployment.
 
 
 ## 🌐 Socials:
