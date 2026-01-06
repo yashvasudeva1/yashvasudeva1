@@ -49,8 +49,6 @@ Currently deepening my work in NLP, deep learning, and ML deployment through pra
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
 # Let's Connect:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/yashvasudeva/?igsh=dnE1aGQweWQ2dGJl#) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/yash-vasudeva/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/YashVasudeva2) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vasudevyash@gmail.com) 
-
 <p align="center">
   <!-- LinkedIn -->
   <a href="https://linkedin.com/in/yash-vasudeva">
@@ -72,7 +70,6 @@ Currently deepening my work in NLP, deep learning, and ML deployment through pra
     <img src="https://cdn.simpleicons.org/gmail/EA4335" width="42"/>
   </a>
 </p>
-[![](https://visitcount.itsvg.in/api?id=yashvasudeva1&icon=0&color=0)](https://visitcount.itsvg.in)
 
 
 
