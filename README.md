@@ -45,7 +45,7 @@ Currently deepening my work in NLP, deep learning, and ML deployment through pra
 </p>
 
 
-# Random Dev Quote
+# Remember
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
 # Let's Connect:
