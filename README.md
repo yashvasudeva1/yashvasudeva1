@@ -146,10 +146,6 @@ Production ML system built during my Business Analyst Internship at **Tata Power
   <img src="https://streak-stats.demolab.com?user=yashvasudeva1&theme=tokyonight&hide_border=true&background=0D1117" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashvasudeva1&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Activity" width="100%" />
-</p>
-
 ### Contribution Snake
 
 <p align="center">
