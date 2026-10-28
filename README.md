@@ -1,128 +1,108 @@
-<p align="center">
-  <img src="assets/profile-header.svg" alt="Yash Vasudeva. Software engineering and applied AI focused on document processing, retrieval, and model evaluation." width="100%" />
-</p>
+## Learning log
 
 <p align="center">
-  <a href="https://yashvasudeva.app">portfolio</a>
-  &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/yash-vasudeva/">linkedin</a>
-  &nbsp; / &nbsp;
-  <a href="https://github.com/yashvasudeva1">github</a>
-  &nbsp; / &nbsp;
-  <a href="https://yashvasudeva.app/blog">writing</a>
-  &nbsp; / &nbsp;
-  <a href="mailto:vasudevyash@gmail.com">email</a>
+  <img src="https://www.gitskins.com/api/section/hero?username=yashvasudeva1&theme=zen&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F117675995%3Fu%3D124a494d48fc08ffe3312e7e6ea6ebba71e62b6c%26v%3D4" alt="yashvasudeva1 hero visual" />
 </p>
 
----
+**Yash Vasudeva** · Full Stack AI Engineer
 
-# learning log
+> Building cool things with code, breaking them for fun, and fixing them for sanity. Obsessed with clean design, smarter AI, and coffee that fuels late-night comm
 
-**yash vasudeva** / software engineering and applied ai
+**Learning next**
 
-I build software around document parsing, retrieval, and machine learning evaluation. My work spans Python tools, APIs, retrieval-augmented generation, and interfaces that make technical workflows easier to inspect and use.
+- AWS
+- CrewAI
+- Cost Optimization
 
-## currently learning
+[Website](https://yashvasudeva.app) ·  **12** followers · **18** following
 
-- Improving document extraction by testing text, layout, and table behavior against established parsers.
-- Evaluating retrieval systems with baselines, reranking, citation checks, and failure analysis.
-- Building full-stack interfaces that make machine learning tools easier to inspect and use.
+## Tools I’m practicing
 
-## tools i'm working with
+- **Jupyter Notebook** · 74%
+- **Python** · 15%
+- **TypeScript** · 4%
+- **HTML** · 4%
+- **JavaScript** · 2%
+- **CSS** · 1%
 
-**languages and data**  
-`python` · `sql` · `c++` · `javascript` · `typescript` · `pandas` · `numpy`
+## Projects in progress
 
-**machine learning**  
-`pytorch` · `scikit-learn` · `tensorflow` · `xgboost` · `lightgbm` · `keras`
+<details>
+<summary><b>ntl-detection</b> · Python</summary>
 
-**web and apis**  
-`next.js` · `fastapi` · `flask` · `streamlit` · `html` · `css`
+A project based on finding non-technical losses during the day to day operations of TPDDL<br/>
+⭐ 3 · 🍴 0
 
-**retrieval and storage**  
-`langchain` · `qdrant` · `mysql` · `postgresql` · `hugging face`
+[View repository](https://github.com/yashvasudeva1/ntl-detection)
+</details>
 
-**experimentation and workflow**  
-`mlflow` · `docker` · `git` · `github` · `jupyter` · `power bi` · `plotly` · `vercel`
+<details>
+<summary><b>multi_stock_price_prediction</b> · Python</summary>
 
-## projects in progress
+A deep learning project designed to analyze historical data and predict the future price movements of multiple stocks simultaneously. It leverages LSTMs (Long Short-Term Memory) to capture complex temporal patterns and inter-stock correlations for more accurate market forecasting<br/>
+⭐ 4 · 🍴 0
 
-### betterpdf
+[View repository](https://github.com/yashvasudeva1/multi_stock_price_prediction)
+</details>
 
-An ongoing effort to build and evaluate a document parser that can compete with general-purpose readers. Current work focuses on native text extraction, layout structure, table candidates, and a repeatable test suite against pymupdf.
+<details>
+<summary><b>ORCHESTRA</b> · TypeScript</summary>
 
-**focus:** document parsing · layout fidelity · table extraction · benchmark design
+a multi agent platform which can be used to rate hackathon projects and make the whole process easier and faster <br/>
+⭐ 2 · 🍴 0
 
-### production-oriented adaptive rag
+[View repository](https://github.com/yashvasudeva1/ORCHESTRA)
+</details>
 
-A retrieval workflow focused on better evidence selection and more reliable answers. Areas of work include hybrid retrieval, reranking, evidence checks, and citation verification.
+<details>
+<summary><b>qwen-data-science-instruct</b> · Jupyter Notebook</summary>
 
-**focus:** hybrid search · bm25 · reciprocal rank fusion · cross-encoder reranking · evidence grounding
+Qwen Data Science Instruct is a fine-tuned version of Qwen2.5-3B-Instruct optimized for Data Science tasks, including Python, statistics, Pandas, and machine learning. Fine-tuned using QLoRA on 16K+ instruction-response examples, it achieved significant improvements over the base model across multiple evaluation metrics.<br/>
+⭐ 3 · 🍴 0
 
-### resume dojo
+[View repository](https://github.com/yashvasudeva1/qwen-data-science-instruct)
+</details>
 
-A resume intelligence platform for structured profile extraction, job matching, bullet analysis, and role-specific comparisons.
+<details>
+<summary><b>Production-oriented-adaptive-RAG</b> · Python</summary>
 
-**focus:** document processing · job matching · evaluation · web application design
+A production-ready Retrieval-Augmented Generation (RAG) pipeline optimized for scalability, accuracy, and enterprise deployment.<br/>
+⭐ 3 · 🍴 0
 
-## selected work
+[View repository](https://github.com/yashvasudeva1/Production-oriented-adaptive-RAG)
+</details>
 
-### research lens
+<details>
+<summary><b>Live-Youtube-Sentiment-Analyzer</b> · Python</summary>
 
-A retrieval system for research papers and technical documentation, built around document indexing and evidence-focused answers.
+This is a chrome extension made specifically for analysing youtube comments, the repository contains a specialized script tailored for extracting youtube comments and then combining them <br/>
+⭐ 5 · 🍴 0
 
-**tools:** `python` · `langchain` · `qdrant` · `fastapi` · `cross-encoder reranking`  
-[project details](https://www.yashvasudeva.app/projects/research-lens)
+[View repository](https://github.com/yashvasudeva1/Live-Youtube-Sentiment-Analyzer)
+</details>
 
-### qwen data science instruct
+## Progress so far
 
-A qlora fine-tune of qwen2.5-3b-instruct for data science and machine learning coding tasks.
-
-**tools:** `python` · `pytorch` · `qlora` · `unsloth`  
-[model on hugging face](https://huggingface.co/yashvasudeva/qwen-ds-finetuned)
-
-### non-technical loss detection
-
-Machine learning work completed during my business analyst internship at Tata Power Delhi Distribution Limited, focused on identifying potential electricity theft and meter anomalies using smart meter telemetry.
-
-**tools:** `python` · `scikit-learn` · `fastapi` · `mlflow`  
-[project details](https://yashvasudeva.app/projects)
-
-## progress so far
-
-- Built a fine-tuned language model for data science and machine learning coding tasks.
-- Developed retrieval workflows for research papers and technical documentation.
-- Worked on a machine learning workflow for non-technical loss detection during my internship at Tata Power Delhi Distribution Limited.
-- Evaluated model architectures against defined metrics and business constraints during my internship project.
-
-## learning streak
-
-The chart below reflects the public contribution activity on my GitHub profile. It is live activity data, not a manually entered score.
+- **Current streak:** 1 days
+- **Longest streak:** 10 days
+- **Active days:** 112 days
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/901A1D/yashvasudeva1" alt="GitHub contribution activity for yashvasudeva1" width="100%" />
+  <img src="https://www.gitskins.com/api/section/stats?username=yashvasudeva1&theme=zen&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F117675995%3Fu%3D124a494d48fc08ffe3312e7e6ea6ebba71e62b6c%26v%3D4" alt="yashvasudeva1 stats visual" />
 </p>
 
-## research and writing
+## Learning streak
 
-I write about machine learning experiments, model behavior, retrieval systems, prompting, and the trade-offs behind applied AI engineering.
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/heatmap?username=yashvasudeva1&theme=zen" alt="yashvasudeva1 contribution activity" />
+</p>
 
-- When Does More Data Beat a Bigger Model?
-- Why Doesn't Model Size Predict When an AI's Writing Falls Apart?
-- Prompting Techniques: Baseline Beat Every Chain-of-X Technique
+## Say hello
 
-[read research and writing](https://yashvasudeva.app/blog)
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/social?username=yashvasudeva1&theme=zen&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F117675995%3Fu%3D124a494d48fc08ffe3312e7e6ea6ebba71e62b6c%26v%3D4" alt="yashvasudeva1 social visual" />
+</p>
 
-## education and experience
-
-**b.tech in information technology**  
-Bhagwan Parshuram Institute of Technology, GGSIPU  
-2024 to 2028 · 8.75 / 10 CGPA
-
-**business analyst intern**  
-Tata Power Delhi Distribution Limited  
-June to July 2026. Worked on machine learning for non-technical loss detection using smart meter telemetry and model evaluation.
-
-## say hello
-
-[portfolio](https://yashvasudeva.app) / [linkedin](https://www.linkedin.com/in/yash-vasudeva/) / [github](https://github.com/yashvasudeva1) / [x](https://x.com/YashVasudeva2) / [instagram](https://www.instagram.com/yashvasudeva) / [email](mailto:vasudevyash@gmail.com)
+<a href="https://github.com/yashvasudeva1">GitHub</a> · <a href="https://yashvasudeva.app">Website</a>
+<a href="(https://www.linkedin.com/in/yash-vasudeva/)">Linkedin</a>
+<p align="center"><sub>Yash Vasudeva · Learning profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
