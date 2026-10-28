@@ -1,201 +1,128 @@
-<!-- ===================== HEADER (animated waving banner) ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Yash%20Vasudeva&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Machine%20Learning%20Engineer%20%7C%20AI%20Engineer%20%7C%20Data%20Science&descSize=18&descAlignY=58" width="100%" />
-</p>
-
-<!-- ===================== TYPING ANIMATION ===================== -->
-<p align="center">
-  <a href="https://yashvasudeva.app">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=50&lines=Build+%E2%86%92+Measure+%E2%86%92+Understand+%E2%86%92+Deploy;I+build+end-to-end+ML+%26+AI+systems;RAG+%C2%B7+LLM+Fine-Tuning+%C2%B7+Deep+Learning;Reliable+evaluation+over+vanity+metrics" alt="Typing animation" />
-  </a>
+  <img src="assets/profile-header.svg" alt="Yash Vasudeva. Software engineering and applied AI focused on document processing, retrieval, and model evaluation." width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://yashvasudeva.app"><img src="https://img.shields.io/badge/Portfolio-yashvasudeva.app-58A6FF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/yash-vasudeva/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:vasudevyash@gmail.com"><img src="https://img.shields.io/badge/Gmail-Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://yashvasudeva.app/blog"><img src="https://img.shields.io/badge/Blog-Research_%26_Writing-8957E5?style=for-the-badge&logo=hashnode&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yashvasudeva1&label=Profile%20Views&color=58A6FF&style=flat-square" />
-  <img src="https://img.shields.io/github/followers/yashvasudeva1?label=Followers&style=flat-square&color=8957E5&logo=github" />
+  <a href="https://yashvasudeva.app">portfolio</a>
+  &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/yash-vasudeva/">linkedin</a>
+  &nbsp; / &nbsp;
+  <a href="https://github.com/yashvasudeva1">github</a>
+  &nbsp; / &nbsp;
+  <a href="https://yashvasudeva.app/blog">writing</a>
+  &nbsp; / &nbsp;
+  <a href="mailto:vasudevyash@gmail.com">email</a>
 </p>
 
 ---
 
-## About Me
+# learning log
 
-I build **end-to-end machine learning and AI systems**, from raw data and experimentation to evaluation, APIs, and deployment.
+**yash vasudeva** / software engineering and applied ai
 
-My work focuses on predictive modeling, deep learning, RAG, LLM fine-tuning, and production-oriented ML engineering, with an emphasis on **reliable evaluation rather than chasing impressive-looking metrics**.
+I build software around document parsing, retrieval, and machine learning evaluation. My work spans Python tools, APIs, retrieval-augmented generation, and interfaces that make technical workflows easier to inspect and use.
 
-- B.Tech in Information Technology at **BPIT, GGSIPU** · **8.75 / 10 CGPA**
-- Business Analyst Intern at **Tata Power Delhi Distribution Limited** (Jun to Jul 2026)
-- Exploring the intersection of ML systems, generative AI, and empirical AI research
+## currently learning
 
-> *I care about what happens after the model trains: how reliably it performs, how it fails, and whether it can actually be used.*
+- Improving document extraction by testing text, layout, and table behavior against established parsers.
+- Evaluating retrieval systems with baselines, reranking, citation checks, and failure analysis.
+- Building full-stack interfaces that make machine learning tools easier to inspect and use.
 
----
+## tools i'm working with
 
-## What I Work On
+**languages and data**  
+`python` · `sql` · `c++` · `javascript` · `typescript` · `pandas` · `numpy`
 
-| Focus | Details |
-|---|---|
-| **Machine Learning** | Classification, regression, feature engineering, model evaluation |
-| **Deep Learning** | Neural networks, LSTM, PyTorch, TensorFlow |
-| **Generative AI** | RAG, LLM applications, QLoRA fine-tuning, agentic systems |
-| **ML Engineering** | FastAPI, Docker, experiment tracking, model serving |
-| **Data & Analytics** | EDA, statistical analysis, forecasting, dashboards |
-| **AI Evaluation** | Retrieval metrics, citation accuracy, model benchmarking, experimentation |
+**machine learning**  
+`pytorch` · `scikit-learn` · `tensorflow` · `xgboost` · `lightgbm` · `keras`
 
----
+**web and apis**  
+`next.js` · `fastapi` · `flask` · `streamlit` · `html` · `css`
 
-## Selected Work
+**retrieval and storage**  
+`langchain` · `qdrant` · `mysql` · `postgresql` · `hugging face`
 
-### Qwen Data Science Instruct
-QLoRA fine-tuned **Qwen2.5-3B-Instruct** for Data Science and ML coding tasks.
+**experimentation and workflow**  
+`mlflow` · `docker` · `git` · `github` · `jupyter` · `power bi` · `plotly` · `vercel`
 
-![Win Rate](https://img.shields.io/badge/Win_Rate_vs_Base-86%25-2ea44f?style=flat-square)
-![BLEU](https://img.shields.io/badge/BLEU-%2B109.5%25-2ea44f?style=flat-square)
-![ROUGE-L](https://img.shields.io/badge/ROUGE--L-%2B66.9%25-2ea44f?style=flat-square)
+## projects in progress
 
-`Python` `PyTorch` `QLoRA` `Unsloth` `Qwen` `Hugging Face` · [Case Study](https://yashvasudeva.app/projects)
+### betterpdf
 
-<br/>
+An ongoing effort to build and evaluate a document parser that can compete with general-purpose readers. Current work focuses on native text extraction, layout structure, table candidates, and a repeatable test suite against pymupdf.
 
-### Production RAG
-Evidence-grounded RAG architecture combining hybrid retrieval, BM25, RRF, cross-encoder reranking, evidence gating, and citation verification.
+**focus:** document parsing · layout fidelity · table extraction · benchmark design
 
-![Recall@5](https://img.shields.io/badge/Recall%405-90%25-58A6FF?style=flat-square)
-![MRR](https://img.shields.io/badge/MRR-85%25-58A6FF?style=flat-square)
-![Citation Accuracy](https://img.shields.io/badge/Citation_Accuracy-95%25-58A6FF?style=flat-square)
-![Tests](https://img.shields.io/badge/Tests-32%2F32_passing-2ea44f?style=flat-square)
+### production-oriented adaptive rag
 
-`Python` `FastAPI` `Qdrant` `BM25` `RAG` `Pydantic` `Docker` · [Case Study](https://yashvasudeva.app/projects)
+A retrieval workflow focused on better evidence selection and more reliable answers. Areas of work include hybrid retrieval, reranking, evidence checks, and citation verification.
 
-<br/>
+**focus:** hybrid search · bm25 · reciprocal rank fusion · cross-encoder reranking · evidence grounding
 
-### ResearchLens
-Production-oriented RAG system for research papers and technical documentation.
+### resume dojo
 
-![Recall@5](https://img.shields.io/badge/Recall%405-100%25-58A6FF?style=flat-square)
-![MRR](https://img.shields.io/badge/MRR-94.2%25-58A6FF?style=flat-square)
-![Faithfulness](https://img.shields.io/badge/Faithfulness-94.2%25-8957E5?style=flat-square)
-![Citation Accuracy](https://img.shields.io/badge/Citation_Accuracy-100%25-2ea44f?style=flat-square)
+A resume intelligence platform for structured profile extraction, job matching, bullet analysis, and role-specific comparisons.
 
-`Python` `LangChain` `Qdrant` `FastAPI` `RAG` `Cross-Encoder` · [Case Study](https://www.yashvasudeva.app/projects/research-lens)
+**focus:** document processing · job matching · evaluation · web application design
 
-<br/>
+## selected work
 
-### ResumeDojo
-AI-powered resume intelligence and ATS evaluation platform with structured profile extraction, job matching, bullet analysis, and role-specific benchmarking.
+### research lens
 
-![Extraction](https://img.shields.io/badge/Profile_Extraction-96%25-F78166?style=flat-square)
-![ATS](https://img.shields.io/badge/ATS_Consistency-94%25-F78166?style=flat-square)
-![Schema](https://img.shields.io/badge/Schema_Reliability-100%25-2ea44f?style=flat-square)
+A retrieval system for research papers and technical documentation, built around document indexing and evidence-focused answers.
 
-`Python` `FastAPI` `Next.js` `LangChain` `Docling` `PyMuPDF` · [Portfolio](https://yashvasudeva.app/projects)
+**tools:** `python` · `langchain` · `qdrant` · `fastapi` · `cross-encoder reranking`  
+[project details](https://www.yashvasudeva.app/projects/research-lens)
 
-<br/>
+### qwen data science instruct
 
-### TPDDL Non-Technical Loss Detection
-Production ML system built during my Business Analyst Internship at **Tata Power Delhi Distribution Limited** for identifying potential electricity theft and meter anomalies.
+A qlora fine-tune of qwen2.5-3b-instruct for data science and machine learning coding tasks.
 
-![Precision](https://img.shields.io/badge/Precision-73.4%25-E3B341?style=flat-square)
-![Recall](https://img.shields.io/badge/Recall-97.2%25-2ea44f?style=flat-square)
-![PR-AUC](https://img.shields.io/badge/PR--AUC-0.9696-58A6FF?style=flat-square)
+**tools:** `python` · `pytorch` · `qlora` · `unsloth`  
+[model on hugging face](https://huggingface.co/yashvasudeva/qwen-ds-finetuned)
 
-`Python` `Scikit-Learn` `FastAPI` `MLflow` `Supabase` · [Portfolio](https://yashvasudeva.app/projects)
+### non-technical loss detection
 
----
+Machine learning work completed during my business analyst internship at Tata Power Delhi Distribution Limited, focused on identifying potential electricity theft and meter anomalies using smart meter telemetry.
 
-## Tech Stack
+**tools:** `python` · `scikit-learn` · `fastapi` · `mlflow`  
+[project details](https://yashvasudeva.app/projects)
+
+## progress so far
+
+- Built a fine-tuned language model for data science and machine learning coding tasks.
+- Developed retrieval workflows for research papers and technical documentation.
+- Worked on a machine learning workflow for non-technical loss detection during my internship at Tata Power Delhi Distribution Limited.
+- Evaluated model architectures against defined metrics and business constraints during my internship project.
+
+## learning streak
+
+The chart below reflects the public contribution activity on my GitHub profile. It is live activity data, not a manually entered score.
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,c,cpp,html,css&perline=6" /><br/><br/>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,pandas,numpy&perline=5" /><br/><br/>
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,docker,mysql,postgres,git,github,vercel&perline=8" />
+  <img src="https://ghchart.rshah.org/901A1D/yashvasudeva1" alt="GitHub contribution activity for yashvasudeva1" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" />
-  <img src="https://img.shields.io/badge/XGBoost-189AB4?style=flat-square" />
-  <img src="https://img.shields.io/badge/LightGBM-02A8EF?style=flat-square" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square" />
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Unsloth-18B26B?style=flat-square" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" />
-</p>
+## research and writing
 
----
-
-## GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=yashvasudeva1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashvasudeva1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=yashvasudeva1&theme=tokyonight&hide_border=true&background=0D1117" />
-</p>
-
-### Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yashvasudeva1/yashvasudeva1/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yashvasudeva1/yashvasudeva1/output/github-snake.svg" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/yashvasudeva1/yashvasudeva1/output/github-snake.svg" />
-  </picture>
-</p>
-
----
-
-## Research and Writing
-
-I write about machine learning experiments, model behavior, RAG systems, prompting, and the trade-offs behind AI engineering decisions.
+I write about machine learning experiments, model behavior, retrieval systems, prompting, and the trade-offs behind applied AI engineering.
 
 - When Does More Data Beat a Bigger Model?
 - Why Doesn't Model Size Predict When an AI's Writing Falls Apart?
 - Prompting Techniques: Baseline Beat Every Chain-of-X Technique
 
-**[Read my research and writing](https://yashvasudeva.app/blog)**
+[read research and writing](https://yashvasudeva.app/blog)
 
----
+## education and experience
 
-## Education and Experience
+**b.tech in information technology**  
+Bhagwan Parshuram Institute of Technology, GGSIPU  
+2024 to 2028 · 8.75 / 10 CGPA
 
-**B.Tech in Information Technology**
-Bhagwan Parshuram Institute of Technology · GGSIPU
-`8.75 / 10 CGPA` · `2024 to Present`
+**business analyst intern**  
+Tata Power Delhi Distribution Limited  
+June to July 2026. Worked on machine learning for non-technical loss detection using smart meter telemetry and model evaluation.
 
-**Business Analyst Intern, Tata Power Delhi Distribution Limited**
-`June 2026 to July 2026`
-Built an ML-powered Non-Technical Loss detection system using smart-meter telemetry and production-oriented model evaluation.
+## say hello
 
----
-
-## Let's Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/yash-vasudeva/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://x.com/YashVasudeva2"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-  <a href="https://www.instagram.com/yashvasudeva"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="mailto:vasudevyash@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1500&color=8B949E&center=true&vCenter=true&width=600&lines=Build+systems.+Measure+outcomes.+Learn+from+failure." alt="Footer tagline" />
-</p>
-
-<!-- ===================== FOOTER (animated waving banner) ===================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" />
-</p>
+[portfolio](https://yashvasudeva.app) / [linkedin](https://www.linkedin.com/in/yash-vasudeva/) / [github](https://github.com/yashvasudeva1) / [x](https://x.com/YashVasudeva2) / [instagram](https://www.instagram.com/yashvasudeva) / [email](mailto:vasudevyash@gmail.com)
