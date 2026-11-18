@@ -14,6 +14,16 @@ Most repos here start one of two ways: a production ML pipeline I wanted to stre
 
 ### Selected builds
 
+<a href="https://github.com/yashvasudeva1/Production-oriented-adaptive-RAG">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/pipeline-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/pipeline-light.svg" />
+    <img alt="Nexus Adaptive RAG 5-Stage Pipeline Architecture" src="./assets/pipeline-light.svg" width="100%" />
+  </picture>
+</a>
+
+<br /><br />
+
 | Build | What it is |
 | :--- | :--- |
 | [**qwen-data-science-instruct**](https://github.com/yashvasudeva1/qwen-data-science-instruct) | `Qwen2.5-3B-Instruct` fine-tuned on 16.4K data science examples using 4-bit QLoRA (Unsloth) on a single T4. 86% win rate over the base model (+109.5% BLEU, +66.9% ROUGE-L). |
@@ -32,6 +42,16 @@ Most repos here start one of two ways: a production ML pipeline I wanted to stre
 ---
 
 ### Things I actually tested
+
+<a href="https://yashvasudeva.app/blog">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/benchmarks-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/benchmarks-light.svg" />
+    <img alt="Empirical ML and LLM Benchmarks by Yash Vasudeva" src="./assets/benchmarks-light.svg" width="100%" />
+  </picture>
+</a>
+
+<br /><br />
 
 When a paper, blog post, or ML rule of thumb sounds suspicious, I run paired experiments and publish the charts on [yashvasudeva.app/blog](https://yashvasudeva.app/blog). A few findings that changed how I build:
 
@@ -64,4 +84,21 @@ When a paper, blog post, or ML rule of thumb sounds suspicious, I run paired exp
 
 ---
 
-[yashvasudeva.app](https://yashvasudeva.app) · [Projects](https://yashvasudeva.app/projects) · [Writing](https://yashvasudeva.app/blog) · [LinkedIn](https://www.linkedin.com/in/yash-vasudeva/) · [X](https://x.com/YashVasudeva2) · [Contact](https://yashvasudeva.app/contact)
+<a href="https://yashvasudeva.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/terminal-light.svg" />
+    <img alt="YashOS tty1 — open https://yashvasudeva.app" src="./assets/terminal-light.svg" width="100%" />
+  </picture>
+</a>
+
+<br />
+
+<p align="center">
+  <a href="https://yashvasudeva.app">yashvasudeva.app</a> ·
+  <a href="https://yashvasudeva.app/projects">Projects</a> ·
+  <a href="https://yashvasudeva.app/blog">Writing</a> ·
+  <a href="https://www.linkedin.com/in/yash-vasudeva/">LinkedIn</a> ·
+  <a href="https://x.com/YashVasudeva2">X</a> ·
+  <a href="https://yashvasudeva.app/contact">Contact</a>
+</p>

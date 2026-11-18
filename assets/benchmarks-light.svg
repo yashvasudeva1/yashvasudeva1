@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="248" viewBox="0 0 900 248" role="img" aria-label="Empirical ML and LLM Benchmarks by Yash Vasudeva">
+  <title>Empirical ML and LLM Benchmarks by Yash Vasudeva</title>
+
+  <style>
+    @keyframes barGrow {
+      0% { transform: scaleX(0); opacity: 0.4; }
+      16% { transform: scaleX(1); opacity: 1; }
+      84% { transform: scaleX(1); opacity: 1; }
+      94% { transform: scaleX(1); opacity: 0.35; }
+      100% { transform: scaleX(0); opacity: 0.4; }
+    }
+    .bar {
+      transform-box: fill-box;
+      transform-origin: left center;
+      animation: barGrow 10s cubic-bezier(.22, 1, .36, 1) infinite;
+    }
+    .d1 { animation-delay: 0s; }
+    .d2 { animation-delay: 0.25s; }
+    .d3 { animation-delay: 0.5s; }
+    .d4 { animation-delay: 0.15s; }
+    .d5 { animation-delay: 0.4s; }
+    .d6 { animation-delay: 0.65s; }
+    @media (prefers-reduced-motion: reduce) {
+      .bar { animation: none; transform: scaleX(1); opacity: 1; }
+    }
+  </style>
+
+  <!-- Outer editorial card -->
+  <rect x="0.5" y="0.5" width="899" height="247" rx="6" fill="#fcfaf7" stroke="#e5dfd4" stroke-width="1" />
+
+  <!-- Top eyebrow -->
+  <text x="28" y="31" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" letter-spacing="1.4" fill="#6f6a63">EMPIRICAL BENCHMARKS  /  THINGS I ACTUALLY TESTED</text>
+  <text x="872" y="31" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" letter-spacing="1.2" fill="#9c6f1e">YASHVASUDEVA.APP/BLOG</text>
+
+  <!-- Center hairline divider -->
+  <line x1="450" y1="50" x2="450" y2="194" stroke="#e5dfd4" stroke-width="1" />
+
+  <!-- LEFT PANEL: QLoRA Fine-Tuning -->
+  <g>
+    <text x="28" y="64" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#6f6a63">QLORA FINE-TUNING  &#x00B7;  QWEN2.5-3B (1&#x00D7; T4)</text>
+
+    <!-- Metric 1 -->
+    <text x="28" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#151515">Win rate vs base model</text>
+    <text x="418" y="92" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600" fill="#9c6f1e">86.0%</text>
+    <rect x="28" y="100" width="390" height="7" rx="3.5" fill="#efe9e0" />
+    <rect class="bar d1" x="28" y="100" width="335" height="7" rx="3.5" fill="#9c6f1e" />
+
+    <!-- Metric 2 -->
+    <text x="28" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#151515">BLEU gain over base</text>
+    <text x="418" y="136" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600" fill="#9c6f1e">+109.5%</text>
+    <rect x="28" y="144" width="390" height="7" rx="3.5" fill="#efe9e0" />
+    <rect class="bar d2" x="28" y="144" width="366" height="7" rx="3.5" fill="#c9a25a" />
+
+    <!-- Metric 3 -->
+    <text x="28" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#151515">ROUGE-L gain over base</text>
+    <text x="418" y="180" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600" fill="#4a4642">+66.9%</text>
+    <rect x="28" y="188" width="390" height="7" rx="3.5" fill="#efe9e0" />
+    <rect class="bar d3" x="28" y="188" width="261" height="7" rx="3.5" fill="#4a4642" />
+  </g>
+
+  <!-- RIGHT PANEL: Production & Evaluation Benchmarks -->
+  <g>
+    <text x="482" y="64" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#6f6a63">SYSTEMS &amp; EVALUATION  &#x00B7;  CONTROLLED RUNS</text>
+
+    <!-- Metric 4 -->
+    <text x="482" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#151515">Nexus RAG abstention accuracy</text>
+    <text x="872" y="92" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600" fill="#9c6f1e">97.3%</text>
+    <rect x="482" y="100" width="390" height="7" rx="3.5" fill="#efe9e0" />
+    <rect class="bar d4" x="482" y="100" width="379" height="7" rx="3.5" fill="#9c6f1e" />
+
+    <!-- Metric 5 -->
+    <text x="482" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#151515">TPDDL audit precision floor</text>
+    <text x="872" y="136" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600" fill="#4a4642">65.0%+</text>
+    <rect x="482" y="144" width="390" height="7" rx="3.5" fill="#efe9e0" />
+    <rect class="bar d5" x="482" y="144" width="254" height="7" rx="3.5" fill="#4a4642" />
+
+    <!-- Metric 6 -->
+    <text x="482" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#151515">Baseline vs Chain-of-X latency</text>
+    <text x="872" y="180" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600" fill="#9c6f1e">2.27&#x00D7; faster</text>
+    <rect x="482" y="188" width="390" height="7" rx="3.5" fill="#efe9e0" />
+    <rect class="bar d6" x="482" y="188" width="172" height="7" rx="3.5" fill="#c9a25a" />
+  </g>
+
+  <!-- Bottom rule + metadata -->
+  <line x1="28" y1="212" x2="872" y2="212" stroke="#e5dfd4" stroke-width="1" />
+  <text x="28" y="233" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing="1" fill="#6f6a63">16.4K INSTRUCT EXAMPLES  &#x00B7;  10K CONSUMERS  &#x00B7;  9 PROMPTING METHODS</text>
+  <text x="872" y="233" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#9c6f1e">CORRELATION &gt; COMPLEXITY</text>
+</svg>

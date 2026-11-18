@@ -6,6 +6,58 @@
     </pattern>
   </defs>
 
+  <style>
+    @keyframes beacon {
+      0% { transform: scale(1); opacity: 0.55; }
+      70% { transform: scale(2.6); opacity: 0; }
+      100% { transform: scale(2.6); opacity: 0; }
+    }
+    @keyframes drawLine {
+      0% { stroke-dashoffset: 240; opacity: 0.4; }
+      18% { stroke-dashoffset: 0; opacity: 1; }
+      82% { stroke-dashoffset: 0; opacity: 1; }
+      95% { stroke-dashoffset: 0; opacity: 0.3; }
+      100% { stroke-dashoffset: 240; opacity: 0.4; }
+    }
+    @keyframes bandPulse {
+      0%, 12% { opacity: 0.02; }
+      28%, 80% { opacity: 0.09; }
+      100% { opacity: 0.02; }
+    }
+    @keyframes dotBreathe {
+      0%, 100% { opacity: 0.55; }
+      50% { opacity: 0.95; }
+    }
+    @keyframes accentGlow {
+      0%, 100% { transform: scale(1); opacity: 0.9; }
+      50% { transform: scale(1.35); opacity: 1; }
+    }
+    .beacon-ring {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: beacon 3.2s cubic-bezier(.22, 1, .36, 1) infinite;
+    }
+    .fit-line {
+      stroke-dasharray: 240;
+      animation: drawLine 9s cubic-bezier(.22, 1, .36, 1) infinite;
+    }
+    .conf-band {
+      animation: bandPulse 9s ease-in-out infinite;
+    }
+    .pt { animation: dotBreathe 4.8s ease-in-out infinite; }
+    .pt-2 { animation-delay: 0.6s; }
+    .pt-3 { animation-delay: 1.2s; }
+    .pt-4 { animation-delay: 1.8s; }
+    .pt-accent {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: accentGlow 3.6s ease-in-out infinite;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .beacon-ring, .fit-line, .conf-band, .pt, .pt-accent { animation: none; stroke-dashoffset: 0; }
+    }
+  </style>
+
   <!-- Warm paper canvas matching yashvasudeva.app -->
   <rect x="0.5" y="0.5" width="899" height="229" rx="6" fill="#fcfaf7" stroke="#e5dfd4" stroke-width="1" />
 
@@ -13,6 +65,7 @@
   <rect x="620" y="38" width="236" height="122" fill="url(#dots-light)" />
 
   <!-- Left editorial header -->
+  <circle class="beacon-ring" cx="48" cy="48" r="3" fill="none" stroke="#9c6f1e" stroke-width="1.2" />
   <circle cx="48" cy="48" r="3" fill="#9c6f1e" />
   <text x="60" y="51.5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="1.6" fill="#6f6a63">YASHVASUDEVA1  /  DELHI, IN</text>
 
@@ -20,34 +73,28 @@
 
   <text x="44" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#4a4642">ML systems, fine-tuned models, and benchmarks that hold up past the demo.</text>
 
-  <!-- Minimal scatter + regression motif (right) -->
+  <!-- Minimal animated scatter + regression motif (right) -->
   <g>
-    <!-- Axes -->
     <line x1="620" y1="42" x2="620" y2="158" stroke="#d4ccbe" stroke-width="1" />
     <line x1="620" y1="158" x2="856" y2="158" stroke="#d4ccbe" stroke-width="1" />
 
-    <!-- Subtle confidence band -->
-    <polygon points="630,136 846,49 846,75 630,155" fill="#9c6f1e" opacity="0.08" />
+    <polygon class="conf-band" points="630,136 846,49 846,75 630,155" fill="#9c6f1e" opacity="0.08" />
+    <line class="fit-line" x1="630" y1="145" x2="846" y2="62" stroke="#9c6f1e" stroke-width="1.5" stroke-linecap="round" />
 
-    <!-- Fitted line -->
-    <line x1="630" y1="145" x2="846" y2="62" stroke="#9c6f1e" stroke-width="1.4" />
+    <circle class="pt" cx="639" cy="148" r="2.4" fill="#151515" />
+    <circle class="pt pt-2" cx="654" cy="130" r="2.4" fill="#151515" />
+    <circle class="pt pt-3" cx="668" cy="127" r="2.4" fill="#151515" />
+    <circle class="pt pt-4" cx="686" cy="132" r="2.4" fill="#151515" />
+    <circle class="pt" cx="703" cy="111" r="2.4" fill="#151515" />
+    <circle class="pt pt-2" cx="718" cy="117" r="2.4" fill="#151515" />
+    <circle class="pt pt-3" cx="737" cy="107" r="2.4" fill="#151515" />
+    <circle class="pt-accent" cx="752" cy="91" r="2.7" fill="#9c6f1e" />
+    <circle class="pt pt-4" cx="771" cy="98" r="2.4" fill="#151515" />
+    <circle class="pt" cx="786" cy="79" r="2.4" fill="#151515" />
+    <circle class="pt pt-2" cx="804" cy="74" r="2.4" fill="#151515" />
+    <circle class="pt pt-3" cx="822" cy="77" r="2.4" fill="#151515" />
+    <circle class="pt-accent" cx="839" cy="61" r="2.7" fill="#9c6f1e" />
 
-    <!-- Data points (organic residuals) -->
-    <circle cx="639" cy="148" r="2.4" fill="#151515" opacity="0.65" />
-    <circle cx="654" cy="130" r="2.4" fill="#151515" opacity="0.65" />
-    <circle cx="668" cy="127" r="2.4" fill="#151515" opacity="0.72" />
-    <circle cx="686" cy="132" r="2.4" fill="#151515" opacity="0.6" />
-    <circle cx="703" cy="111" r="2.4" fill="#151515" opacity="0.75" />
-    <circle cx="718" cy="117" r="2.4" fill="#151515" opacity="0.65" />
-    <circle cx="737" cy="107" r="2.4" fill="#151515" opacity="0.7" />
-    <circle cx="752" cy="91" r="2.4" fill="#9c6f1e" />
-    <circle cx="771" cy="98" r="2.4" fill="#151515" opacity="0.65" />
-    <circle cx="786" cy="79" r="2.4" fill="#151515" opacity="0.78" />
-    <circle cx="804" cy="74" r="2.4" fill="#151515" opacity="0.72" />
-    <circle cx="822" cy="77" r="2.4" fill="#151515" opacity="0.68" />
-    <circle cx="839" cy="61" r="2.4" fill="#9c6f1e" />
-
-    <!-- Plot annotation in open upper-left quadrant -->
     <text x="632" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing="0.8" fill="#6f6a63">&#x03C1; = 0.91</text>
   </g>
 

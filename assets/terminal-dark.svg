@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="74" viewBox="0 0 900 74" role="img" aria-label="YashOS tty1 terminal strip">
+  <title>YashOS tty1 terminal strip</title>
+
+  <style>
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .cursor {
+      animation: blink 1.05s steps(1, end) infinite;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .cursor { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="899" height="73" rx="6" fill="#121316" stroke="#282622" stroke-width="1" />
+
+  <!-- Subtle window dots -->
+  <circle cx="26" cy="24" r="3.5" fill="#2c2a26" />
+  <circle cx="39" cy="24" r="3.5" fill="#2c2a26" />
+  <circle cx="52" cy="24" r="3.5" fill="#c9a25a" />
+
+  <text x="68" y="27.5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#8b857b">YASHOS v1.0.0  &#x00B7;  TTY1</text>
+  <text x="874" y="27.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing="1.1" fill="#8b857b">BPIT, GGSIPU  &#x00B7;  DELHI, IN</text>
+
+  <line x1="22" y1="38" x2="878" y2="38" stroke="#22211e" stroke-width="1" />
+
+  <text x="24" y="59" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5"><tspan fill="#c9a25a">visitor@yash</tspan><tspan fill="#8b857b">:~$ </tspan><tspan fill="#f3efe8">open https://yashvasudeva.app --interactive </tspan><tspan class="cursor" fill="#c9a25a">&#x2588;</tspan></text>
+</svg>
