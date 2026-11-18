@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-label="Yash Vasudeva — Machine Learning Engineer">
+  <title>Yash Vasudeva — Machine Learning Engineer</title>
+  <defs>
+    <pattern id="dots-light" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#d4ccbe" opacity="0.55" />
+    </pattern>
+  </defs>
+
+  <!-- Warm paper canvas matching yashvasudeva.app -->
+  <rect x="0.5" y="0.5" width="899" height="229" rx="6" fill="#fcfaf7" stroke="#e5dfd4" stroke-width="1" />
+
+  <!-- Subtle dot grid tucked behind the plot area -->
+  <rect x="620" y="38" width="236" height="122" fill="url(#dots-light)" />
+
+  <!-- Left editorial header -->
+  <circle cx="48" cy="48" r="3" fill="#9c6f1e" />
+  <text x="60" y="51.5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="1.6" fill="#6f6a63">YASHVASUDEVA1  /  DELHI, IN</text>
+
+  <text x="44" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="400" letter-spacing="-0.6" fill="#151515">Yash Vasudeva</text>
+
+  <text x="44" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#4a4642">ML systems, fine-tuned models, and benchmarks that hold up past the demo.</text>
+
+  <!-- Minimal scatter + regression motif (right) -->
+  <g>
+    <!-- Axes -->
+    <line x1="620" y1="42" x2="620" y2="158" stroke="#d4ccbe" stroke-width="1" />
+    <line x1="620" y1="158" x2="856" y2="158" stroke="#d4ccbe" stroke-width="1" />
+
+    <!-- Subtle confidence band -->
+    <polygon points="630,136 846,49 846,75 630,155" fill="#9c6f1e" opacity="0.08" />
+
+    <!-- Fitted line -->
+    <line x1="630" y1="145" x2="846" y2="62" stroke="#9c6f1e" stroke-width="1.4" />
+
+    <!-- Data points (organic residuals) -->
+    <circle cx="639" cy="148" r="2.4" fill="#151515" opacity="0.65" />
+    <circle cx="654" cy="130" r="2.4" fill="#151515" opacity="0.65" />
+    <circle cx="668" cy="127" r="2.4" fill="#151515" opacity="0.72" />
+    <circle cx="686" cy="132" r="2.4" fill="#151515" opacity="0.6" />
+    <circle cx="703" cy="111" r="2.4" fill="#151515" opacity="0.75" />
+    <circle cx="718" cy="117" r="2.4" fill="#151515" opacity="0.65" />
+    <circle cx="737" cy="107" r="2.4" fill="#151515" opacity="0.7" />
+    <circle cx="752" cy="91" r="2.4" fill="#9c6f1e" />
+    <circle cx="771" cy="98" r="2.4" fill="#151515" opacity="0.65" />
+    <circle cx="786" cy="79" r="2.4" fill="#151515" opacity="0.78" />
+    <circle cx="804" cy="74" r="2.4" fill="#151515" opacity="0.72" />
+    <circle cx="822" cy="77" r="2.4" fill="#151515" opacity="0.68" />
+    <circle cx="839" cy="61" r="2.4" fill="#9c6f1e" />
+
+    <!-- Plot annotation in open upper-left quadrant -->
+    <text x="632" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing="0.8" fill="#6f6a63">&#x03C1; = 0.91</text>
+  </g>
+
+  <!-- Bottom rule + metadata bar -->
+  <line x1="44" y1="182" x2="856" y2="182" stroke="#e5dfd4" stroke-width="1" />
+  <text x="44" y="207" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="1.2" fill="#6f6a63">PYTHON  &#x00B7;  PYTORCH  &#x00B7;  FASTAPI  &#x00B7;  TYPESCRIPT</text>
+  <text x="856" y="207" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="1.2" fill="#9c6f1e">YASHVASUDEVA.APP</text>
+</svg>

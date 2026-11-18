@@ -1,108 +1,31 @@
-## Learning log
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
+  <img alt="Yash Vasudeva — Machine Learning Engineer" src="./assets/header-light.svg" width="100%" />
+</picture>
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=yashvasudeva1&theme=zen&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F117675995%3Fu%3D124a494d48fc08ffe3312e7e6ea6ebba71e62b6c%26v%3D4" alt="yashvasudeva1 hero visual" />
-</p>
+<br />
 
-**Yash Vasudeva** · Full Stack AI Engineer
+I build ML and retrieval systems, fine-tune small language models, and spend a slightly unreasonable amount of time testing whether popular ML advice actually works. B.Tech IT student in Delhi; previously interned at Tata Power DDL building electricity theft detection models.
 
-> Building cool things with code, breaking them for fun, and fixing them for sanity. Obsessed with clean design, smarter AI, and coffee that fuels late-night comm
+Most repos here started as either a production pipeline or a workflow that annoyed me enough to automate. When I run controlled benchmarks on prompting, preprocessing, or scaling, I put the write-ups on [yashvasudeva.app/blog](https://yashvasudeva.app/blog) (the boring baseline wins more often than it should).
 
-**Learning next**
+### Selected builds
 
-- AWS
-- CrewAI
-- Cost Optimization
+| Build | What it is |
+| :--- | :--- |
+| [**qwen-data-science-instruct**](https://github.com/yashvasudeva1/qwen-data-science-instruct) | `Qwen2.5-3B-Instruct` fine-tuned on 16.4K data science examples with 4-bit QLoRA (Unsloth) on a single T4. 86% win rate over base (+109.5% BLEU, +66.9% ROUGE-L). |
+| [**Nexus (Adaptive RAG)**](https://github.com/yashvasudeva1/Production-oriented-adaptive-RAG) | Confidence-gated hybrid retrieval (Qdrant HNSW + BM25, calibrated RRF, cross-encoder reranking). 97.3% abstention accuracy on unanswerable queries, 186 tests passing. |
+| [**ntl-detection**](https://github.com/yashvasudeva1/ntl-detection) | Electricity theft and meter tampering detection from my Tata Power DDL internship. Tuned to a 65%+ audit precision floor across 10K consumers because false-positive field raids cost real money. |
+| [**ResumeDojo**](https://github.com/yashvasudeva1/Resume_ops) | Resume parser and ATS auditor built with Docling, PyMuPDF, FastAPI, and Next.js. Pulls out factual structure first, then scores bullets against 12+ tech roles without polite fluff. |
+| [**ORCHESTRA**](https://github.com/yashvasudeva1/ORCHESTRA) · [live](https://orchestra-eosin.vercel.app) | Upload a CSV of hackathon submissions; five judge agents, a bias auditor, and a chief judge review the repos and return a ranked leaderboard. |
 
-[Website](https://yashvasudeva.app) ·  **12** followers · **18** following
+### Day-to-day stack
 
-## Tools I’m practicing
+- **Modeling & eval:** Python, PyTorch, scikit-learn, XGBoost, Unsloth, QLoRA, Hugging Face
+- **Retrieval & backend:** FastAPI, Qdrant, PostgreSQL, SQLite, LangChain, Docling
+- **Web & data:** TypeScript, Next.js, Node.js, Pandas, SQL
 
-- **Jupyter Notebook** · 74%
-- **Python** · 15%
-- **TypeScript** · 4%
-- **HTML** · 4%
-- **JavaScript** · 2%
-- **CSS** · 1%
+---
 
-## Projects in progress
-
-<details>
-<summary><b>ntl-detection</b> · Python</summary>
-
-A project based on finding non-technical losses during the day to day operations of TPDDL<br/>
-⭐ 3 · 🍴 0
-
-[View repository](https://github.com/yashvasudeva1/ntl-detection)
-</details>
-
-<details>
-<summary><b>multi_stock_price_prediction</b> · Python</summary>
-
-A deep learning project designed to analyze historical data and predict the future price movements of multiple stocks simultaneously. It leverages LSTMs (Long Short-Term Memory) to capture complex temporal patterns and inter-stock correlations for more accurate market forecasting<br/>
-⭐ 4 · 🍴 0
-
-[View repository](https://github.com/yashvasudeva1/multi_stock_price_prediction)
-</details>
-
-<details>
-<summary><b>ORCHESTRA</b> · TypeScript</summary>
-
-a multi agent platform which can be used to rate hackathon projects and make the whole process easier and faster <br/>
-⭐ 2 · 🍴 0
-
-[View repository](https://github.com/yashvasudeva1/ORCHESTRA)
-</details>
-
-<details>
-<summary><b>qwen-data-science-instruct</b> · Jupyter Notebook</summary>
-
-Qwen Data Science Instruct is a fine-tuned version of Qwen2.5-3B-Instruct optimized for Data Science tasks, including Python, statistics, Pandas, and machine learning. Fine-tuned using QLoRA on 16K+ instruction-response examples, it achieved significant improvements over the base model across multiple evaluation metrics.<br/>
-⭐ 3 · 🍴 0
-
-[View repository](https://github.com/yashvasudeva1/qwen-data-science-instruct)
-</details>
-
-<details>
-<summary><b>Production-oriented-adaptive-RAG</b> · Python</summary>
-
-A production-ready Retrieval-Augmented Generation (RAG) pipeline optimized for scalability, accuracy, and enterprise deployment.<br/>
-⭐ 3 · 🍴 0
-
-[View repository](https://github.com/yashvasudeva1/Production-oriented-adaptive-RAG)
-</details>
-
-<details>
-<summary><b>Live-Youtube-Sentiment-Analyzer</b> · Python</summary>
-
-This is a chrome extension made specifically for analysing youtube comments, the repository contains a specialized script tailored for extracting youtube comments and then combining them <br/>
-⭐ 5 · 🍴 0
-
-[View repository](https://github.com/yashvasudeva1/Live-Youtube-Sentiment-Analyzer)
-</details>
-
-## Progress so far
-
-- **Current streak:** 1 days
-- **Longest streak:** 10 days
-- **Active days:** 112 days
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=yashvasudeva1&theme=zen&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F117675995%3Fu%3D124a494d48fc08ffe3312e7e6ea6ebba71e62b6c%26v%3D4" alt="yashvasudeva1 stats visual" />
-</p>
-
-## Learning streak
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/heatmap?username=yashvasudeva1&theme=zen" alt="yashvasudeva1 contribution activity" />
-</p>
-
-## Say hello
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=yashvasudeva1&theme=zen&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F117675995%3Fu%3D124a494d48fc08ffe3312e7e6ea6ebba71e62b6c%26v%3D4" alt="yashvasudeva1 social visual" />
-</p>
-
-<a href="https://github.com/yashvasudeva1">GitHub</a> · <a href="https://yashvasudeva.app">Website</a>
-<a href="(https://www.linkedin.com/in/yash-vasudeva/)">Linkedin</a>
-<p align="center"><sub>Yash Vasudeva · Learning profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
+[yashvasudeva.app](https://yashvasudeva.app) · [Writing](https://yashvasudeva.app/blog) · [LinkedIn](https://www.linkedin.com/in/yash-vasudeva/) · [X](https://x.com/YashVasudeva2)
