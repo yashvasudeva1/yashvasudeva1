@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
-  <img alt="Yash Vasudeva — Machine Learning Engineer" src="./assets/header-light.svg" width="100%" />
+  <img alt="Yash Vasudeva - Machine Learning Engineer" src="./assets/header-light.svg" width="100%" />
 </picture>
 
 <br />
@@ -34,10 +34,10 @@ Most repos here start one of two ways: a production ML pipeline I wanted to stre
 
 **Other tools worth a look**
 
-- [**RAGForge**](https://github.com/yashvasudeva1/RAGForge) — drag-and-drop canvas for assembling custom RAG architectures and exporting runnable code.
-- [**NewsRadar**](https://github.com/yashvasudeva1/NewsRadar) ([live](https://news-radar-ten.vercel.app)) — automated engineering blog and preprint research monitor with keyword scoring and daily Gmail briefings.
-- [**AI-Text-Catcher-**](https://github.com/yashvasudeva1/AI-Text-Catcher-) — forensic stylometric and semantic pipeline for spotting AI-generated writing (which sets a fairly high bar for this README).
-- [**Live-Youtube-Sentiment-Analyzer**](https://github.com/yashvasudeva1/Live-Youtube-Sentiment-Analyzer) — Chrome extension + backend script for live comment extraction and sentiment breakdown on YouTube videos.
+- [**RAGForge**](https://github.com/yashvasudeva1/RAGForge) - drag-and-drop canvas for assembling custom RAG architectures and exporting runnable code.
+- [**NewsRadar**](https://github.com/yashvasudeva1/NewsRadar) ([live](https://news-radar-ten.vercel.app)) - automated engineering blog and preprint research monitor with keyword scoring and daily Gmail briefings.
+- [**AI-Text-Catcher-**](https://github.com/yashvasudeva1/AI-Text-Catcher-) - forensic stylometric and semantic pipeline for spotting AI-generated writing (which sets a fairly high bar for this README).
+- [**Live-Youtube-Sentiment-Analyzer**](https://github.com/yashvasudeva1/Live-Youtube-Sentiment-Analyzer) - Chrome extension + backend script for live comment extraction and sentiment breakdown on YouTube videos.
 
 ---
 
@@ -77,10 +77,10 @@ When a paper, blog post, or ML rule of thumb sounds suspicious, I run paired exp
 
 ### Background
 
-- **Tata Power Delhi Distribution Ltd. (TPDDL)** — Business Analyst Intern (Jun–Jul 2026). Built an ML portal for non-technical loss detection across 10,000 consumers using 12 smart-meter features.
-- **BPIT, GGSIPU** — B.Tech in Information Technology (2024–Present, 8.75/10 CGPA).
-- **Hackathons (9× podiums)** — Vultr Track Winner at HackCBS 9.0 (MLH), Gemini Track Winner at No//Code Hackathon (MLH), Finalist at Odoo Hackathon and Orbix Hackathon (IIIT Delhi).
-- **Outside code** — Graphics Lead at Namespace BPIT, Secretary at Rotaract Club of BPIT, and design experiments under [The Design Forge](https://design-forge-iota.vercel.app).
+- **Tata Power Delhi Distribution Ltd. (TPDDL)** - Business Analyst Intern (Jun–Jul 2026). Built an ML portal for non-technical loss detection across 10,000 consumers using 12 smart-meter features.
+- **BPIT, GGSIPU** - B.Tech in Information Technology (2024–Present, 8.75/10 CGPA).
+- **Hackathons (9× podiums)** - Vultr Track Winner at HackCBS 9.0 (MLH), Gemini Track Winner at No//Code Hackathon (MLH), Finalist at Odoo Hackathon and Orbix Hackathon (IIIT Delhi).
+- **Outside code** - Graphics Lead at Namespace BPIT, Secretary at Rotaract Club of BPIT, and design experiments under [The Design Forge](https://design-forge-iota.vercel.app).
 
 ---
 
@@ -88,7 +88,7 @@ When a paper, blog post, or ML rule of thumb sounds suspicious, I run paired exp
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/terminal-light.svg" />
-    <img alt="YashOS tty1 — open https://yashvasudeva.app" src="./assets/terminal-light.svg" width="100%" />
+    <img alt="YashOS tty1 - open https://yashvasudeva.app" src="./assets/terminal-light.svg" width="100%" />
   </picture>
 </a>
 
